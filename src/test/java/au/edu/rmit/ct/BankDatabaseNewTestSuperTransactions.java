@@ -1,3 +1,12 @@
+/**
+*  
+* Name: John Smith
+* Student ID: s45045012
+* Email: s45045012@student.rmit.edu.au
+* 
+* [OPTIONAL: add any notes here about the code]
+*/
+
 package au.edu.rmit.ct;
 
 import static org.junit.jupiter.api.Assertions.*;
