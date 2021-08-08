@@ -15,7 +15,7 @@ public class BankDatabaseNew extends BankDatabase {
 	public BankDatabaseNew(ArrayList<CustomerAccount> seedCustomers) throws Exception {
 		if(seedCustomers.isEmpty())
 			throw new Exception ("Trying to seed database with empty source");
-		customers = seedCustomers;
+		customers = new ArrayList<CustomerAccount>(seedCustomers);
 	}	
 	void clear() throws Exception {
 		if(this.isEmpty())
@@ -82,6 +82,10 @@ public class BankDatabaseNew extends BankDatabase {
 		} // end for
 
 		return null; // if no matching account was found, return null
-	} 
+	}
+	
+ 	List<CustomerAccount> export() {
+		return  new ArrayList<>( customers); // returns a copy only of customer data.
+	}
  
 }
