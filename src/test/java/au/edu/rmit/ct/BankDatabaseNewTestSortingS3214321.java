@@ -16,7 +16,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class CustomerAccountTestSuperTransactions {
+class BankDatabaseNewTestSortingS3214321 {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {

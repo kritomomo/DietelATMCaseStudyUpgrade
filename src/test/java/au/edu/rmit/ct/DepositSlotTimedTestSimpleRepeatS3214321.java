@@ -17,7 +17,11 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class BankDatabaseNewTestConstructors {
+/*
+ * Please replace S3214321 of class name with your own student number
+ */
+
+class DepositSlotTimedTestSimpleRepeatS3214321 {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {

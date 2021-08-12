@@ -17,7 +17,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class DepositSlotTimedTestAdvancedTiming {
+class BankDatabaseNewTestConstructorsS3214321 {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {

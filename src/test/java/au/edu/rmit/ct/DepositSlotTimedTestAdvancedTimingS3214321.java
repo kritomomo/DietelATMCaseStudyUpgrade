@@ -6,6 +6,7 @@
 * 
 * [OPTIONAL: add any notes here about the code]
 */
+
 package au.edu.rmit.ct;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -16,7 +17,7 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class BankDatabaseNewTestSorting {
+class DepositSlotTimedTestAdvancedTimingS3214321 {
 
 	@BeforeAll
 	static void setUpBeforeClass() throws Exception {
